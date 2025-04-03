@@ -1,8 +1,8 @@
-## 🚀 Master SQL with Our Course!  
-Want to level up your SQL skills? Our **SQL Fundamentals Course** covers everything from basics to advanced queries.  
+## 🚀 Master Django DRF ORM Query Fundamentals with Our Course!  
+Want to level up your DRF ORM Query skills? Our **Django DRF ORM Query Fundamentals Course** covers everything from basics to advanced queries.  
 
 🔥 **Join the Udemy Course today and start learning!**  
-📌 [Click here to enroll now!](https://www.udemy.com/course/sql-fundamentals-postgresql/?referralCode=3ADAD1B84D5002E61B22)  
+📌 [Click here to enroll now!](https://www.udemy.com/course/django-drf-query-fundamentals/?referralCode=1CFCB355D90D3DA11077)  
 
 ---
 
@@ -52,18 +52,21 @@ Write a query to return only the active products from this table.
 ---
 
 ## 🔗 Next Steps  
-1. 📌 **[Read the Setup Instructions](setup.md)** to get everything up and running.  
-2. 📝 Run your query.  
-3. 💡 Need help? Check out the **[`solutions.sql`](solutions.sql)** file.  
+1. 📌 **[Read the Setup Instructions](setup_instructions.md)** to get everything up and running.  
+2. Implement your solution in **`views.py`** inside the provided **ViewSet**.  
+3. Write the corresponding serializer in **`serializers.py`** the serializer class template is provided.  
+4. You **do not** need to manually add a URL—the system will automatically detect the ViewSet.  
+5. Open your browser and navigate to:  
+  👉 **[`http://localhost:8000/apps`](http://localhost:8000/apps)** to test your queries.   
 
 ---
 
 ## 📌 Dont Forget  
-You only need to set up the database once for all challenges in Scenario A (see challenge name). Each scenario uses slightly different data, tailored to match the specific challenge requirements.  
+You only need to set up the docker containers and images once for all challenges tagged as Scenario A (see challenge name). Each scenario uses slightly different data, tailored to match the specific challenge requirements.  
 
 ---
 
 ## 🚀 Next Challenge:  
-[SQL-Challenge-0002-Scenario-A](https://github.com/veryacademy/SQL-Challenge-0002-Scenario-A) 
+[DRF-Query-Challenge-0002-Scenario-A]() 
 
 ---
