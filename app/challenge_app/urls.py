@@ -1,4 +1,4 @@
-# module8/urls.py
+# challenge_app/urls.py
 from inspect import getmembers, isclass
 
 from django.urls import include, path
@@ -18,5 +18,5 @@ for name, cls in getmembers(views, isclass):
         )
 
 urlpatterns = [
-    path("api/mod8/", include(router.urls)),  # Register the routes under '/api/m4/'
+    path("api/", include(router.urls)),  # Register the routes under '/api/m4/'
 ]

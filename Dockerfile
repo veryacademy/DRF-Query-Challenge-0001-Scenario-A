@@ -12,11 +12,8 @@ RUN apk add --no-cache \
     libffi-dev \
     python3-dev
 
-# Copy project files
-COPY requirements.txt .
-
 # Install dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir django djangorestframework psycopg2-binary drf-spectacular
 
 # Expose port
 EXPOSE 8000

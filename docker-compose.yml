@@ -1,7 +1,7 @@
-name: Django-ORM-Course
+name: DRF-ORM-Query-Course
 
 services:
-  postgres:
+  db:
     image: postgres:17.4-alpine3.21
     container_name: inventory_db
     restart: always
@@ -20,7 +20,7 @@ services:
     container_name: django_app
     restart: always
     depends_on:
-      - postgres
+      - db
     volumes:
       - ./app:/app
     ports:

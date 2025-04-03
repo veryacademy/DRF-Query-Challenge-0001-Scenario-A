@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "inventory",
     "rest_framework",
-    "module8",
+    "challenge_app",
     "drf_spectacular",
 ]
 
@@ -83,7 +83,7 @@ DATABASES = {
         "NAME": "inventory",
         "USER": "postgres",
         "PASSWORD": "postgres",
-        "HOST": "postgres",  # Matches service name in docker-compose
+        "HOST": "db",  # Matches service name in docker-compose
         "PORT": "5432",
     }
 }
