@@ -53,11 +53,10 @@ Write a query to return only the active products from this table.
 
 ## 🔗 Next Steps  
 1. 📌 **[Read the Setup Instructions](setup_instructions.md)** to get everything up and running.  
-2. Implement your solution in **`views.py`** inside the provided **ViewSet**.  
-3. Write the corresponding serializer in **`serializers.py`** the serializer class template is provided.  
+2. Implement your solution in **`views.py`** inside the provided **ViewSet**.
 4. You **do not** need to manually add a URL—the system will automatically detect the ViewSet.  
 5. Open your browser and navigate to:  
-  👉 **[`http://localhost:8000/apps`](http://localhost:8000/apps)** to test your queries.   
+  👉 **[`http://localhost:8000/docs`](http://localhost:8000/docs)** to test your query.   
 
 ---
 
