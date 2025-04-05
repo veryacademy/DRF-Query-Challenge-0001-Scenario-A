@@ -14,7 +14,7 @@ You are working for an **e-commerce platform** that sells both **physical and di
 ---
 
 ## 🎯 Challenge Specification  
-Write an SQL query to fetch all **active products** from the `products` table. A product is considered active if `is_active = TRUE`.  
+Write a Django query to fetch all **active products** from the `products` table. A product is considered active if `is_active = TRUE`.  
 
 ### ✅ Requirements:  
 - Select the following columns:  
@@ -47,14 +47,14 @@ You can view the database ERD here:
 ---
 
 ## 🤔 Try It Yourself  
-Write a query to return only the active products from this table.  
+Write a Django query to return only the active products.  
 
 ---
 
 ## 🔗 Next Steps  
 1. 📌 **[Read the Setup Instructions](setup_instructions.md)** to get everything up and running.  
 2. Implement your solution in **`views.py`** inside the provided **ViewSet**.
-4. You **do not** need to manually add a URL—the system will automatically detect the ViewSet.  
+4. You **do not** need to manually add a URL—the system will automatically register the ViewSet.  
 5. Open your browser and navigate to:  
   👉 **[`http://localhost:8000/docs`](http://localhost:8000/docs)** to test your query.   
 
@@ -62,10 +62,5 @@ Write a query to return only the active products from this table.
 
 ## 📌 Dont Forget  
 You only need to set up the docker containers and images once for all challenges tagged as Scenario A (see challenge name). Each scenario uses slightly different data, tailored to match the specific challenge requirements.  
-
----
-
-## 🚀 Next Challenge:  
-[DRF-Query-Challenge-0002-Scenario-A]() 
 
 ---
