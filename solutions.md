@@ -1,10 +1,5 @@
 # Challenge Solutions
 
-
-from rest_framework.response import Response
-from .models import Product
-
-
 # 🟡 Solution 1 – Basic Query (All Fields)
 
 Fetch all active products, ordering them by name.
