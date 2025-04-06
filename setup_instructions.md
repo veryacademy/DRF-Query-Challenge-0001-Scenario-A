@@ -21,7 +21,7 @@ docker compose up --build -d
 ## **3️⃣ Start the Django Challenge**  
 Once the containers are up and running, you're ready to begin the challenge!  
 
-- Implement your solution in **`views.py`** inside the provided **ViewSet**.
+- Implement your solution in the challenge_app **`views.py`** inside the provided **ViewSet**.
 - You **do not** need to manually add a URL—the system will automatically detect the ViewSet.  
 - Open your browser and navigate to:  
   👉 **[`http://localhost:8000/apps`](http://localhost:8000/apps)** to test your queries.  
