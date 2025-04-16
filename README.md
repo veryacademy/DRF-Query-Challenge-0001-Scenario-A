@@ -18,10 +18,7 @@ Write a Django query to fetch all **active products** from the `products` table.
 
 ### ✅ Requirements:  
 - Select the following columns:  
-  - `id` (Product ID)  
-  - `name` (Product Name)  
-  - `price` (Product Price)  
-  - `is_active` (Product is_active)
+  - (All Fields)
 - Only include products where **`is_active = TRUE`**.  
 - Order the results by **`created_at` in descending order** (newest first).  
 
