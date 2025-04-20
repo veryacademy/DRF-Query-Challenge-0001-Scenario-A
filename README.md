@@ -21,7 +21,6 @@ Write a Django query to fetch all **active products** from the `products` table.
   - (All Fields)
 - Only include products where **`is_active = TRUE`**.  
 - Order the results by **`created_at` in descending order** (newest first).  
-
 ---
 
 ## 🗄️ Sample Data  
